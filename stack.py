@@ -52,4 +52,4 @@ print("Linear stretch of predictions to [0,1]")
 # y_submission = (y_submission - y_submission.min()) / (y_submission.max() - y_submission.min())
 print("blend result")
 print("val auc Score: %f" % (roc_auc_score(y_predict, y_submission)))
-#
+##
